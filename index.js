@@ -7,6 +7,9 @@ function capitalize(string) {
 }
 
 function reverse(string) {
-  return;
+  return string.split("").reverse().join("");
 }
-module.exports = { sum, capitalize };
+
+console.log(reverse("drow"));
+
+module.exports = { sum, capitalize, reverse };
